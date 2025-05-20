@@ -8,9 +8,10 @@
         <title>Questionário Leon Denis</title>
     </head>
     <body>
-        <div class="banner">
+        <!--<div class="banner">
             
-        </div>
+        </div>-->
+        <div class="icone"></div>
         <section class="cadastro">
             <form method="post" action="" name="cadastro-form">
                 <fieldset>
@@ -18,73 +19,74 @@
                     <div>
                         <label for="Data de Chegada">Data de Chegada na Instituição: </label>
                         <input type="date" id="datachegada" name="Data de Chegada" style="width:125px" required>
-                    </div><br>
+                    </div>
                     <div>
                         <label for="Nome">Nome Completo: </label>
                         <input type="text" id="nome" name="Nome" placeholder="Nome Sobrenome" required>
-                    </div><br>
+                    </div>
                     <div>
                         <label for="Telefone">Telefone: </label>
                         <input type="number" id="telefone" name="Telefone" placeholder="DDD01234567" min="0" max="100000000000" required>
-                    </div><br>
+                    </div>
                     <div>
                         <label for="CPF">CPF: </label>
                         <input type="number" id="cpf" name="CPF" placeholder="01234567890" min="0" max="100000000000" required>
-                    </div><br>
+                    </div>
                     <div>
                         <label for="Data de Nascimento">Data de Nascimento: </label>
                         <input type="date" id="datanasc" name="Data de Nascimento" style="width:125px" required>
-                    </div><br>
+                    </div>
                     <div>
                         <label for="Idade">Idade: </label>
                         <input type="number" id="idade" name="Idade" placeholder="01" min="0" max="120" required>
-                    </div><br>
+                    </div>
                     <div>
                         <label for="Cidade">Cidade: </label>
                         <input type="text" id="cidade" name="Cidade" placeholder="Cidade" required>
-                    </div><br>
+                    </div>
                     <div>
                         <label for="UF">UF: </label>
                         <input type="text" id="uf" name="UF" value="RS" required>
-                    </div><br>
+                    </div>
                     <div>
                         <tr>Fumante: </tr>
                         <input type="radio" id="fumante" name="Fumante" value="Sim" required>
                         <label for="fumante">Sim</label>
                         <input type="radio" id="Nfumante" name="Fumante" value="Não" required checked>
                         <label for="Nfumante">Não</label>
-                    </div><br>
+                    </div>
                     <div>
                         <label for="Renda Familiar">Renda Bruta Total da Família: </label>
-                        <input type="number" id="renda" name="Renda Familiar" placeholder="0123" min="0" required>
-                    </div><br>
+                        <input type="text" id="renda" name="Renda Familiar" placeholder="0123 ou 0 salário mínimo" required>
+                    </div>
                     <div>
                         <label for="Motivo Acolhimento">Motivo para Acolhimento: </label>
                         <textarea id="motAcolhimento" name="Motivo Acolhimento" placeholder="Motivo para Acolhimento">-</textarea>
-                    </div><br>
+                    </div>
                     <div>
                         <label for="Nome do Paciente">Nome Completo do Paciente: </label>
                         <input type="text" id="nomepac" name="Nome do Paciente" placeholder="Nome Sobrenome" required>
-                    </div><br>
+                    </div>
                     <div>
                         <label for="Vinculo Familiar">Vínculo de patentesco com o paciente: </label>
                         <input type="text" id="vinculo" name="Vinculo Familiar" placeholder="(filho, esposa, amigo, etc)" required>
-                    </div><br><br>
+                    </div>
                     <div>
                         <tr>Tem Cadastro Único: </tr>
                         <input type="radio" id="comCadunico" name="Cadasto Único" value="Sim" required>
                         <label for="comCadunico">Sim</label>
                         <input type="radio" id="semCadunico" name="Cadasto Único" value="Não" required>
                         <label for="semCadunico">Não</label>
-                    </div><br>
+                    </div>
                     <div>
                         <label for="Auxílio">Você ou alguém que reside com você recebe algum auxílio do governo? (Auxílio Doença, BPC,
                             Auxílio Brasil, etc). Se sim, qual? </label>
                         <textarea id="auxilio" name="Auxílio" placeholder="Não / Sim, ...">-</textarea>
-                    </div><br><br>
+                    </div>
                     <div>
                         <label for="Escolaridade">Seu grau de escolaridade: </label>
                         <select id="escolaridade" name="Escolaridade" style="width:215px;height:28px;" required>
+                            <option value="Analfabeto">Analfabeto</option>
                             <option value="Ensino Fundamental Incompleto">Fundamental Incompleto</option>
                             <option value="Ensino Fundamental Completo">Fundamental Completo</option>
                             <option value="Ensino Médio Incompleto">Médio Incompleto</option>
@@ -94,31 +96,31 @@
                             <option value="Curso Técnico Incompleto">Técnico Incompleto</option>
                             <option value="Curso Técnico Completo">Técnico Completo</option>
                         </select>
-                    </div><br>
+                    </div>
                     <div>
                         <label for="Trabalho">Você trabalha atualmente? Em quê?</label>
                         <textarea id="trabalho" name="Trabalho" placeholder="Não / Sim, ...">-</textarea>
-                    </div><br><br>
+                    </div>
                     <div>
                         <tr>Ciente das Normas de Convivência da Casa: </tr>
                         <input type="radio" id="Snormas" name="Normas de Convivência" value="Sim" required>
                         <label for="Snormas">Sim</label>
                         <input type="radio" id="Nnormas" name="Normas de Convivência" value="Não" required>
                         <label for="Nnormas">Não</label>
-                    </div><br><br>
+                    </div>
                     <div>
-                        <p>Autoriza o direito de imagem para divulgação da Instituição em campanhas e eventos; e uso de
-                            número de telefone afim de comunicação (grupo do WhatsApp): </p>
+                        <tr>Autoriza o direito de imagem para divulgação da Instituição em campanhas e eventos; e uso de
+                            número de telefone afim de comunicação (grupo do WhatsApp): </tr>
                         <input type="radio" id="Sautorizacao" name="Autorizações" value="Sim" required>
                         <label for="Sautorizacao">Sim</label>
                         <input type="radio" id="Nautorizacao" name="Autorizações" value="Não" required>
                         <label for="Nautorizacao">Não</label>
-                    </div><br>
+                    </div>
                     <input type="submit" id="salvar" value="SALVAR">
                 </fieldset>
             </form>
         </section>
-        <div class="contatos">
+        <!--<div class="contatos">
             <h2>Informações para Contato: </h2>
             <p> Telefone: (55) 3226-4928</p>
             <p> Email: <a href="mailto:a.leondenis@gmail.com">a.leondenis@gmail.com</a></p>
@@ -127,7 +129,7 @@
             <p> Instagram do Brechó: <a href="https://www.instagram.com/brecholeondeniss/">@brecholeondeniss</a></p>
             <p> Endereço: R. Erly de Almeida Lima, 520 - Camobi, Santa Maria, Rio Grande do Sul, 97105-120</p>
             <p> Acessar no <a href="https://maps.app.goo.gl/CAMR497HTvgDPq3S9">Google Maps</a></p>
-        </div>
+        </div>-->
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
                 crossorigin="anonymous"></script>
         <script src="confirmacao.js"></script>
