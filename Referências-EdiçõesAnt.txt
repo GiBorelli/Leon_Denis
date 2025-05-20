@@ -1,0 +1,41 @@
+Sites:
+Mostrar dados de Planilhas com pesquisa de cada coluna: https://youtu.be/cNhQY_uyMVQ?si=8sitiEJlK7ht6VN
+Mostrar dados de Planilhas com pesquisa geral: 
+
+Vídeos:
+Form html: https://youtu.be/fNcJuPIZ2WE?si=L6a5O8Fm2SCn62Ur
+Envio de informações do html form para Google Planilhas: https://www.youtube.com/watch?v=jdIntB1J-i8
+Tabela HTML sem pesquisa com dados planilha, mas explicação completa: https://www.youtube.com/watch?v=rXrOyTBjdjE
+Mostrar dados de Planilhas com pesquisa de cada coluna: https://youtu.be/cNhQY_uyMVQ?si=8sitiEJlK7ht6VN
+Mostrar dados de Planilhas com pesquisa geral: https://www.youtube.com/watch?v=uqmeYQ7JsrU
+Escrita e Leitura de Planilhas (talvez usar para informações repetidas?): https://youtu.be/Q93BGzGn4hk?si=Xda_rwDy6qRhdVQc
+
+Códigos de Edições Anteriores:
+
+
+.banner{
+    margin-top: -10px;
+    background-image: url("LeonDenisBanner.png");
+    background-position: center; 
+    background-position-y: - 18%;
+    height: 380px; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    overflow: hidden;
+}
+
+<div class="contatos">
+    <h2>Informações para Contato: </h2>
+    <p> Telefone: (55) 3226-4928</p>
+    <p> Email: <a href="mailto:a.leondenis@gmail.com">a.leondenis@gmail.com</a></p>
+    <p> Facebook: <a href="https://www.facebook.com/leon.denis502">Associação Leon Denis</a></p>
+    <p> Endereço: R. Erly de Almeida Lima, 520 - Camobi, Santa Maria, Rio Grande do Sul, 97105-120</p>
+    <p> Acessar no <a href="https://maps.app.goo.gl/CAMR497HTvgDPq3S9">Google Maps</a></p>
+</div>
+
+.contatos{
+    line-height: 10px;
+    text-indent: 5px;
+    background-color: rgba(255, 238, 163, 0.823);
+    padding: 5px 0px;
+}

@@ -1,55 +1,34 @@
-.banner{
-    margin-top: -10px;
-    background-image: url("LeonDenisBanner.png");
-    background-position: center; 
-    background-position-y: - 18%;
-    height: 380px; 
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    overflow: hidden;
-}
-
 .icone{
     background-image: url("LeonDenisIcone.png");
     background-position: left;
-    height: 73px;
-    width: 140px;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+header{
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+}
+
 h2{
-    margin: 5px;
-    text-align: center;
+    margin-left: 25px;
 }
 
 .cadastro{
     text-align: left;
-    text-indent: 15px;
+    margin-left: 10px;
     line-height: 25px;
     font-size: large;
-    margin-bottom: 40px;
 }
 
-fieldset{
-    margin: 15px 0px;
-    padding: 15px 10px;
-    border: solid 2px rgba(144, 144, 144, 0.721);
-    border-radius: 5px;
-    min-width: 500px;
-}
-legend{
-    padding-right: 15px;
-    font-size: 24px;
-    font-weight: 600;
-}
-
-input, select, textarea{
-    margin: 5px 0px;
+input, select, textarea, tr{
+    margin: 6px 0px;
     height: 21px;
     padding: 2px 5px;
     border-radius: 3px;
     font-size: 18px;
+    text-align: justify;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -65,13 +44,41 @@ textarea{
     width: 300px;
 }
 
+.linha1, .linha2{
+    width: 600px;
+    height: 1px;
+    position: absolute;
+    top: 880px;
+    left: 168px;
+    background: rgb(0, 0, 0);
+}
+
+.linha1{
+    top: 880px;
+    left: 168px;
+}
+
+.linha2{
+    top: 923px;
+    left: 168px;
+}
+
+p{
+    margin: 7px 0px 0px 0px;
+}
+
+hr{
+    margin: 0px 0px 0px 165px;
+}
+
 #salvar{
     background-color: rgb(255, 208, 0);
     border-radius: 4px;
     font-size: medium;
+    text-align: center;
     font-weight: 500;
-    height: 23px;
-    width: 100px;
+    height: 24px;
+    width: 90px;
     margin: 0px 0px 0px 15px;
     vertical-align: middle;
 }
@@ -80,9 +87,3 @@ textarea{
     background-color: rgba(255, 208, 0, 0.21);
 }
 
-.contatos{
-    line-height: 10px;
-    text-indent: 5px;
-    background-color: rgba(255, 238, 163, 0.823);
-    padding: 5px 0px;
-}
