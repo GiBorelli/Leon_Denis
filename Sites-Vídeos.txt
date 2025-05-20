@@ -1,0 +1,11 @@
+Sites:
+Mostrar dados de Planilhas com pesquisa de cada coluna: https://youtu.be/cNhQY_uyMVQ?si=8sitiEJlK7ht6VN
+Mostrar dados de Planilhas com pesquisa geral: 
+
+Vídeos:
+Form html: https://youtu.be/fNcJuPIZ2WE?si=L6a5O8Fm2SCn62Ur
+Envio de informações do html form para Google Planilhas: https://www.youtube.com/watch?v=jdIntB1J-i8
+Tabela HTML sem pesquisa com dados planilha, mas explicação completa: https://www.youtube.com/watch?v=rXrOyTBjdjE
+Mostrar dados de Planilhas com pesquisa de cada coluna: https://youtu.be/cNhQY_uyMVQ?si=8sitiEJlK7ht6VN
+Mostrar dados de Planilhas com pesquisa geral: https://www.youtube.com/watch?v=uqmeYQ7JsrU
+Escrita e Leitura de Planilhas (talvez usar para informações repetidas?): https://youtu.be/Q93BGzGn4hk?si=Xda_rwDy6qRhdVQc
