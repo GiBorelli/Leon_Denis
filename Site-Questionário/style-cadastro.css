@@ -12,10 +12,14 @@
 .icone{
     background-image: url("LeonDenisIcone.png");
     background-position: left;
-    height: 80px;
-    width: 150px;
+    height: 73px;
+    width: 140px;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+h2{
+    margin: 5px;
 }
 
 .cadastro{
@@ -41,7 +45,7 @@ legend{
 
 input, select, textarea{
     margin: 5px 0px;
-    height: 24px;
+    height: 21px;
     padding: 2px 5px;
     border-radius: 3px;
     font-size: 18px;
@@ -62,12 +66,13 @@ textarea{
 
 #salvar{
     background-color: rgb(255, 208, 0);
-    border-radius: 8px;
-    font-size: large;
+    border-radius: 4px;
+    font-size: medium;
     font-weight: 500;
-    height: 40px;
+    height: 23px;
     width: 100px;
-    margin: 5px 0px 0px 15px;
+    margin: 0px 0px 0px 15px;
+    vertical-align: middle;
 }
 
 #salvar:hover{
