@@ -1,4 +1,4 @@
-const scriptURL = 'https://script.google.com/macros/s/AKfycbyyQLKOdaLru77I_uua7-kwff3-z9Y-91NeFziWhneAKs03KiJvzsrnzuDf4SAIx0DByg/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbwshvGfwBcRF8gbcv6KQQMlNWLrT8QY476nR_XwlgxWRJ5b2b09G0-YzymhONYv-QL4VQ/exec'
 
 const form = document.forms['cadastro-form']
 
