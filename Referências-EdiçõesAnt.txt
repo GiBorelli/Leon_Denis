@@ -12,7 +12,6 @@ Escrita e Leitura de Planilhas (talvez usar para informações repetidas?): http
 
 Códigos de Edições Anteriores:
 
-
 .banner{
     margin-top: -10px;
     background-image: url("LeonDenisBanner.png");
@@ -22,6 +21,13 @@ Códigos de Edições Anteriores:
     background-repeat: no-repeat; 
     background-size: cover; 
     overflow: hidden;
+}
+
+.icone{
+    background-image: url("LeonDenisIcone.png");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 <div class="contatos">
@@ -38,4 +44,21 @@ Códigos de Edições Anteriores:
     text-indent: 5px;
     background-color: rgba(255, 238, 163, 0.823);
     padding: 5px 0px;
+}
+
+.linha1, .linha2{
+    width: 600px;
+    height: 1px;
+    position: absolute;
+    top: 880px;
+    left: 168px;
+    background: rgb(0, 0, 0);
+}
+.linha1{
+    top: 880px;
+    left: 168px;
+}
+.linha2{
+    top: 923px;
+    left: 168px;
 }
